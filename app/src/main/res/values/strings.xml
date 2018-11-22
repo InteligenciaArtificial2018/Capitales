@@ -1,0 +1,79 @@
+<resources>
+    //Estos son los textview de la pantalla principal//
+    <string name="app_name">Capitales</string>
+    <string name="tvCapitales">Capitales Del Mundo</string>
+    <string name="tvNivel1">Nivel 1</string>
+    <string name="tvNivel2">Nivel 2</string>
+    <string name="tvNivel3">Nivel 3</string>
+    <string name="tvTodasCapitales">Todas las Capitales</string>
+    <string name="tvAprender">Aprender</string>
+    <string name="tvValorar">Valorar</string>
+    <string name="tvAjustes">Ajustes</string>
+    <string name="tvApps">Otras Apps</string>
+
+    //Estos son los button de la pantalla principal//
+    <string name="btnNiveluno"></string>
+    <string name="btnNiveldos"></string>
+    <string name="btnNiveltres"></string>
+    <string name="btnAprender"></string>
+    <string name="btnValorar"></string>
+    <string name="btnAjustes"></string>
+    <string name="btnApps"></string>
+
+    //Estos son los textview y los button de la pantalla del nivel Uno//
+    <string name="tvUno">Nivel 1</string>
+    <string name="tvMultiple">Opcion Multiple</string>
+    <string name="tvFacil">Prueba Facil</string>
+    <string name="tvSeis">Seis</string>
+    <string name="btnMultiple"></string>
+    <string name="btnFacil"></string>
+    <string name="btnSeis"></string>
+    <string name="tvTiempo">Juego de Tiempo</string>
+    <string name="tvDificil">Prueba Dificil</string>
+    <string name="tvMapa">En el Mapa</string>
+    <string name="btnTiempo"></string>
+    <string name="btnDificil"></string>
+    <string name="btnMapa"></string>
+
+    //Estos son los textview y los button de la pantalla Multiple del nivel Uno//
+    <string name="tvTitulo">Atenas</string>
+    <string name="imgGracia"></string>
+    <string name="BtnMult1">Italia</string>
+    <string name="BtnMult2">Grecia</string>
+    <string name="BtnMult3">Panama</string>
+    <string name="BtnMult4">Japon</string>
+
+    //Estos son los textview y los button de la pantalla del nivel Dos//
+    <string name="tvNiveldos">Nivel 2</string>
+    <string name="tvMultipledos">Opcion Multiple</string>
+    <string name="tvFacildos">Prueba Facil</string>
+    <string name="tvSeisdos">Seis</string>
+    <string name="btnMultiple2"></string>
+    <string name="btnFcail2"></string>
+    <string name="btnSeis2"></string>
+    <string name="tvTiempodos">Juego de Tiempo</string>
+    <string name="tvDificildos">Prueba Dificil</string>
+    <string name="tvMapados">En el Mapa</string>
+    <string name="btnTiempo2"></string>
+    <string name="btnDificil2"></string>
+    <string name="btnMapa2"></string>
+
+    //Estos son los textview de la pantalla del nivel Tres//
+    <string name="tvNiveltres">Nivel 3</string>
+    <string name="tvMultipletres">Opcion Multiple</string>
+    <string name="tvFaciltres">Nivel Facil</string>
+    <string name="tvSeistres">Seis</string>
+    <string name="tvTiempotres">Juego de Tiempo</string>
+    <string name="tvDificiltres">Nivel Dificil</string>
+    <string name="tvMapatres">En el Mapa</string>
+
+    //Estos son los button de la pantalla del nivel Tres//
+    <string name="BtnMultipletres"></string>
+    <string name="BtnFaciltres"></string>
+    <string name="BtnSeistres"></string>
+    <string name="BtnTiempotres"></string>
+    <string name="BtnDificiltres"></string>
+    <string name="BtnMapatres"></string>
+
+
+</resources>

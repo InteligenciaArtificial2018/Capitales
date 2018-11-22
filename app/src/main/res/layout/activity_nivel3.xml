@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nivel3">
+
+    <TextView
+        android:id="@+id/tvNivel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="152dp"
+        android:text="@string/tvNiveltres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMultipletres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/tvMultipletres"
+        app:layout_constraintEnd_toStartOf="@+id/tvFaciltres"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNivel3" />
+
+    <TextView
+        android:id="@+id/tvFaciltres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/tvFaciltres"
+        app:layout_constraintEnd_toStartOf="@+id/tvSeistres"
+        app:layout_constraintStart_toEndOf="@+id/tvMultipletres"
+        app:layout_constraintTop_toBottomOf="@+id/tvNivel3" />
+
+    <TextView
+        android:id="@+id/tvSeistres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/tvSeistres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvFaciltres"
+        app:layout_constraintTop_toBottomOf="@+id/tvNivel3" />
+
+    <Button
+        android:id="@+id/btnMultipletres"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/delhi"
+        app:layout_constraintEnd_toStartOf="@+id/btnFaciltres"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMultipletres" />
+
+    <Button
+        android:id="@+id/btnFaciltres"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/cabo"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeistres"
+        app:layout_constraintTop_toBottomOf="@+id/tvFaciltres" />
+
+    <Button
+        android:id="@+id/btnSeistres"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/estocolmo"
+        android:text="@string/BtnSeistres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeistres" />
+
+    <TextView
+        android:id="@+id/tvTiempotres"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/tvTiempotres"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMultipletres" />
+
+    <TextView
+        android:id="@+id/tvDificiltres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/tvDificiltres"
+        app:layout_constraintEnd_toStartOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/tvTiempotres"
+        app:layout_constraintTop_toBottomOf="@+id/btnFaciltres" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/tvMapatres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeistres" />
+
+    <Button
+        android:id="@+id/btnTiempotres"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/brasilia"
+        android:text="@string/BtnTiempotres"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTiempotres" />
+
+    <Button
+        android:id="@+id/btnDificiltres"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/oslo"
+        android:text="@string/BtnDificiltres"
+        app:layout_constraintEnd_toStartOf="@+id/btnMapatres"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/btnTiempotres"
+        app:layout_constraintTop_toBottomOf="@+id/tvDificiltres" />
+
+    <Button
+        android:id="@+id/btnMapatres"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/mapa"
+        android:text="@string/BtnMapatres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+</android.support.constraint.ConstraintLayout>
