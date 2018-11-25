@@ -22,6 +22,10 @@
         <activity android:name=".Multiple" />
         <activity android:name=".Nivel2" />
         <activity android:name=".nivel3"></activity>
+
+
+
+
     </application>
 
 </manifest>

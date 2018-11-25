@@ -10,6 +10,13 @@
     <string name="tvValorar">Valorar</string>
     <string name="tvAjustes">Ajustes</string>
     <string name="tvApps">Otras Apps</string>
+    <string name="tvRecordmultiple1">Record:</string>
+    <string name="tvRecordfacil1">Record:</string>
+    <string name="tvRecordseis1">Record:</string>
+    <string name="tvRecordtiempo1">Record:</string>
+    <string name="tvRecorddificil1">Record:</string>
+    <string name="tvRecordmapa1">Record:</string>
+
 
     //Estos son los button de la pantalla principal//
     <string name="btnNiveluno"></string>
