@@ -82,5 +82,68 @@
     <string name="BtnDificiltres"></string>
     <string name="BtnMapatres"></string>
 
+    //Estos son los textview y los button de la pantalla Prueba Facil del nivel Uno//
+    <string name="tvTitulofacil1">La Capital de India</string>
+    <string name="imgFacil1"></string>
+    <string name="BtnFacil1"></string>
+    <string name="BtnFacil2"></string>
+    <string name="BtnFacil3"></string>
+    <string name="BtnFacil4"></string>
+    <string name="BtnFacil5"></string>
+    <string name="BtnFacil6"></string>
+    <string name="BtnFacil7"></string>
+    <string name="BtnFacil8"></string>
+    <string name="BtnFacil9"></string>
+    <string name="BtnFacil10"></string>
+    <string name="BtnFacilonce"></string>
+
+    //Estos son los textview de la pantalla Seis del nivel Uno//
+    <string name="tvSeisnivel1">Belgica</string>
+    <string name="tvSeis1">Bruselas</string>
+    <string name="tvSeis2">Delhi</string>
+    <string name="tvSeis3">Caracas</string>
+    <string name="tvSeis4">Madrid</string>
+    <string name="tvSeis5">Paris</string>
+    <string name="tvSeis6">Ottawa</string>
+    //Estos son los buttons de la pantalla Seis del nivel Uno//
+    <string name="btnSeisuno"></string>
+    <string name="btnSeisdos"></string>
+    <string name="btnSeis3"></string>
+    <string name="btnSeis4"></string>
+    <string name="btnSeis5"></string>
+    <string name="btnSeis6"></string>
+    //Estos son los textview de la pantalla Juego de tiempo del nivel Uno//
+    <string name="tvTitulotiempo1">Portugal</string>
+    <string name="imgCapitaltiempo1"></string>
+    //Estos son los buttons de la pantalla Juego de tiempo del nivel Uno//
+    <string name="btnTiempo1"></string>
+    <string name="btnTiempo3"></string>
+    <string name="btnTiempo4"></string>
+    <string name="btnTiempo5"></string>
+
+    //Estos son los textview y los button de la pantalla Prueba Facil del nivel Uno//
+    <string name="tvTituloDificil1">La Capital de Francia</string>
+    <string name="imgDificil1"></string>
+    <string name="BtnDificil1"></string>
+    <string name="BtnDificil12"></string>
+    <string name="BtnDificil3"></string>
+    <string name="BtnDificil4"></string>
+    <string name="BtnDificil5"></string>
+    <string name="BtnDificil6"></string>
+    <string name="BtnDificil7"></string>
+    <string name="BtnDificil8"></string>
+    <string name="BtnDificil9"></string>
+    <string name="BtnDificil10"></string>
+    <string name="BtnDificil11"></string>
+
+    //Estos son los textview y los button de la pantalla En el mapa del nivel Uno//
+    <string name="imgvMapanivel1"></string>
+    <string name="BtnMapa1"></string>
+    <string name="BtnMapa2"></string>
+    <string name="BtnMapa3"></string>
+    <string name="BtnMapa4"></string>
+
+
+
 
 </resources>

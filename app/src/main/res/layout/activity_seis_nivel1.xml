@@ -6,4 +6,157 @@
     android:layout_height="match_parent"
     tools:context=".SeisNivel1">
 
+    <TextView
+        android:id="@+id/tvSeisnivel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/tvSeisnivel1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSeisuno"
+        android:layout_width="130dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/btnSeisuno"
+        app:layout_constraintBottom_toTopOf="@+id/tvSeis3"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeis2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeis1" />
+
+    <TextView
+        android:id="@+id/tvSeis1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="90dp"
+        android:text="@string/tvSeis1"
+        app:layout_constraintEnd_toStartOf="@+id/tvSeis2"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeisnivel1" />
+
+    <TextView
+        android:id="@+id/tvSeis2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/tvSeis2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvSeis1"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeisnivel1" />
+
+    <TextView
+        android:id="@+id/tvSeis3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="90dp"
+        android:text="@string/tvSeis3"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeis4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeisuno" />
+
+    <TextView
+        android:id="@+id/tvSeis4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/tvSeis4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvSeis3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeis2" />
+
+    <TextView
+        android:id="@+id/tvSeis5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="90dp"
+        android:text="@string/tvSeis5"
+        app:layout_constraintEnd_toStartOf="@+id/tvSeis6"
+        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeis3" />
+
+    <TextView
+        android:id="@+id/tvSeis6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/tvSeis6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSeis3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeis4" />
+
+    <Button
+        android:id="@+id/btnSeis2"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/btnSeisdos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintStart_toEndOf="@+id/btnSeisuno"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeis2" />
+
+    <Button
+        android:id="@+id/btnSeis3"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/btnSeis3"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeis4"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeis3" />
+
+    <Button
+        android:id="@+id/btnSeis4"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/btnSeis4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSeis3"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeis4" />
+
+    <Button
+        android:id="@+id/btnSeis5"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/btnSeis5"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeis6"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeis5" />
+
+    <Button
+        android:id="@+id/btnSeis6"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/btnSeis6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSeis5"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeis6" />
+
 </android.support.constraint.ConstraintLayout>

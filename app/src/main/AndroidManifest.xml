@@ -18,14 +18,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Nivel1" />
+        <activity
+            android:name=".Nivel1"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".Multiple" />
         <activity android:name=".Nivel2" />
-        <activity android:name=".nivel3"></activity>
-
-
-
-
+        <activity android:name=".nivel3" />
+        <activity
+            android:name=".PruebaFacilNivel1"
+            android:parentActivityName=".Nivel1" />
+        <activity android:name=".SeisNivel1" />
+        <activity android:name=".JuegoTiempoNivel1" />
+        <activity android:name=".PruebaDificilNivel1" />
+        <activity android:name=".Mapa" />
+        <activity android:name=".MapaNivel1"></activity>
     </application>
 
 </manifest>

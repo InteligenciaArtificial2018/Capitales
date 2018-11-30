@@ -6,4 +6,152 @@
     android:layout_height="match_parent"
     tools:context=".PruebaFacilNivel1">
 
+    <Button
+        android:id="@+id/btnFacil3"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/BtnFacil3"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacil4"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toEndOf="@+id/btnFacil2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnFacil4"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/BtnFacil4"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacil5"
+        app:layout_constraintStart_toEndOf="@+id/btnFacil3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnFacil5"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="56dp"
+        android:text="@string/BtnFacil5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnFacil4"
+        app:layout_constraintTop_toTopOf="@+id/btnFacil4" />
+
+    <Button
+        android:id="@+id/btnFacil6"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="152dp"
+        android:text="@string/BtnFacil6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacil7"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnFacil7"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="152dp"
+        android:text="@string/BtnFacil7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacil8"
+        app:layout_constraintStart_toEndOf="@+id/btnFacil6" />
+
+    <Button
+        android:id="@+id/btnFacil8"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="152dp"
+        android:text="@string/BtnFacil8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnFacil7" />
+
+    <Button
+        android:id="@+id/btnFacil9"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="152dp"
+        android:text="@string/BtnFacil9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacil10"
+        app:layout_constraintStart_toEndOf="@+id/btnFacil8" />
+
+    <Button
+        android:id="@+id/btnFacil10"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="152dp"
+        android:text="@string/BtnFacil10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacilonce"
+        app:layout_constraintStart_toEndOf="@+id/btnFacil9" />
+
+    <Button
+        android:id="@+id/btnFacilonce"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="152dp"
+        android:text="@string/BtnFacilonce"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnFacil10" />
+
+    <Button
+        android:id="@+id/btnFacil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/BtnFacil2"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacil3"
+        app:layout_constraintStart_toEndOf="@+id/btnFacil1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tvTitulofacil1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/tvTitulofacil1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/imgFacil1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitulofacil1"
+        app:srcCompat="@drawable/delhi" />
+
+    <Button
+        android:id="@+id/btnFacil1"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/BtnFacil1"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacil2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
 </android.support.constraint.ConstraintLayout>
