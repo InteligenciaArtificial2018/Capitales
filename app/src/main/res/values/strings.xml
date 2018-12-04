@@ -143,6 +143,14 @@
     <string name="BtnMapa3"></string>
     <string name="BtnMapa4"></string>
 
+    //Estos son los textview y los button de la pantalla Prueba Facil del nivel Uno//
+    <string name="tvTitmultiplenivel2">Nepal</string>
+    <string name="imgvMultnivel2"></string>
+    <string name="btn1Multnivel2"></string>
+    <string name="btn2Multnivel2"></string>
+    <string name="btn3Multnivel2"></string>
+    <string name="btn4Multnivel2"></string>
+
 
 
 

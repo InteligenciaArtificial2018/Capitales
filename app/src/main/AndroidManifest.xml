@@ -31,7 +31,10 @@
         <activity android:name=".JuegoTiempoNivel1" />
         <activity android:name=".PruebaDificilNivel1" />
         <activity android:name=".Mapa" />
-        <activity android:name=".MapaNivel1"></activity>
+        <activity android:name=".MapaNivel1" />
+        <activity android:name=".MultipleNivel2"></activity>
+        <activity android:name=".GridActivity"></activity>
+
     </application>
 
 </manifest>

@@ -109,7 +109,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnNiveltres" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnTodascapitales"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginStart="60dp"
