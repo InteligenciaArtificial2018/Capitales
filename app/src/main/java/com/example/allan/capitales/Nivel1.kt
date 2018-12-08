@@ -17,13 +17,37 @@ class Nivel1 : AppCompatActivity() {
         val TAG = "com.example.allan.Nive1.MULTIPLE"
 
         var btnMultiple = findViewById<Button>(R.id.btnMultiple2)
+        var btnFacil = findViewById<Button>(R.id.btnFacil)
+        var btnSeis = findViewById<Button>(R.id.btnSeis)
+        var btnTiempo = findViewById<Button>(R.id.btnTiempo)
+        var btnDificil = findViewById<Button>(R.id.btnDificil)
+        var btnMapa = findViewById<Button>(R.id.btnMapa)
 
 
         btnMultiple.setOnClickListener {
             val intent = Intent(this, Multiple::class.java)
             startActivity(intent)
         }
-
+        btnFacil.setOnClickListener {
+            val intent = Intent(this, PruebaFacilNivel1::class.java)
+            startActivity(intent)
+        }
+        btnSeis.setOnClickListener {
+            val intent = Intent(this, SeisNivel1::class.java)
+            startActivity(intent)
+        }
+        btnTiempo.setOnClickListener {
+            val intent = Intent(this, JuegoTiempoNivel1::class.java)
+            startActivity(intent)
+        }
+        btnDificil.setOnClickListener {
+            val intent = Intent(this, PruebaDificilNivel1::class.java)
+            startActivity(intent)
+        }
+        btnMapa.setOnClickListener {
+            val intent = Intent(this, MapaNivel1::class.java)
+            startActivity(intent)
+        }
     }
 
     @SuppressLint("RestrictedApi")
