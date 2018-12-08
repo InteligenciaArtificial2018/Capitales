@@ -116,10 +116,10 @@
     <string name="tvTitulotiempo1">Portugal</string>
     <string name="imgCapitaltiempo1"></string>
     //Estos son los buttons de la pantalla Juego de tiempo del nivel Uno//
-    <string name="btnTiempo1"></string>
-    <string name="btnTiempo3"></string>
-    <string name="btnTiempo4"></string>
-    <string name="btnTiempo5"></string>
+    <string name="btn1Tiempo1"></string>
+    <string name="btn2Tiempo1"></string>
+    <string name="btn3Tiempo1"></string>
+    <string name="btn4Tiempo1"></string>
 
     //Estos son los textview y los button de la pantalla Prueba Facil del nivel Uno//
     <string name="tvTituloDificil1">La Capital de Francia</string>
@@ -151,7 +151,7 @@
     <string name="btn3Multnivel2"></string>
     <string name="btn4Multnivel2"></string>
 
-    //Estos son los textview de la pantalla Seis del nivel Uno//
+    //Estos son los textview de la pantalla Seis del nivel Dos//
     <string name="tvSeisnivel2">Holanda</string>
     <string name="tv1Seis2">Amsterdam</string>
     <string name="tv2Seis2">Tegucigalpa</string>
@@ -159,12 +159,20 @@
     <string name="tv4Seis2">Panama</string>
     <string name="tv5Seis5">San Jose</string>
     <string name="tv6Seis6">Bogota</string>
-    //Estos son los buttons de la pantalla Seis del nivel Uno//
+    //Estos son los buttons de la pantalla Seis del nivel Dos//
     <string name="btn1Seis2"></string>
     <string name="btn2Seis2"></string>
     <string name="btn3Seis2"></string>
     <string name="btn4Seis2"></string>
     <string name="btn5Seis2"></string>
     <string name="btn6Seis2"></string>
+    //Estos son los textview de la pantalla Juego de tiempo del nivel Dos//
+    <string name="tvTtiempo2">Suiza</string>
+    <string name="imgCapitaltiempo2"></string>
+    //Estos son los buttons de la pantalla Juego de tiempo del nivel Dos//
+    <string name="btn1Tiempo2"></string>
+    <string name="btn2Tiempo2"></string>
+    <string name="btn3Tiempo2"></string>
+    <string name="btn4Tiempo2"></string>
 
 </resources>

@@ -4,80 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".JuegoTiempoNivel1">
+    tools:context=".TiempoNivel2">
 
     <TextView
-        android:id="@+id/tvTitulotiempo1"
+        android:id="@+id/tvTtiemponivel2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="19dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/tvTitulotiempo1"
+        android:text="@string/tvTtiempo2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imgCapitaltiempo1"
+        android:id="@+id/imgCapitaltiempo2"
         android:layout_width="270dp"
-        android:layout_height="177dp"
-        android:layout_marginStart="8dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="55dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:contentDescription="@string/imgCapitaltiempo1"
+        android:layout_marginEnd="55dp"
+        android:contentDescription="@string/imgCapitaltiempo2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitulotiempo1"
-        app:srcCompat="@drawable/lisboa" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTtiemponivel2"
+        app:srcCompat="@drawable/berna" />
 
     <Button
-        android:id="@+id/btnTiempo1"
+        android:id="@+id/btn1Tiempo2"
         android:layout_width="140dp"
         android:layout_height="110dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/btn1Tiempo1"
-        app:layout_constraintEnd_toStartOf="@+id/btnTiempo3"
-        app:layout_constraintHorizontal_bias="0.312"
+        android:text="@string/btn1Tiempo2"
+        app:layout_constraintEnd_toStartOf="@+id/btn2Tiempo2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgCapitaltiempo1" />
+        app:layout_constraintTop_toBottomOf="@+id/imgCapitaltiempo2" />
 
     <Button
-        android:id="@+id/btnTiempo3"
+        android:id="@+id/btn2Tiempo2"
         android:layout_width="140dp"
         android:layout_height="110dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/btn2Tiempo1"
+        android:text="@string/btn2Tiempo2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnTiempo1"
-        app:layout_constraintTop_toBottomOf="@+id/imgCapitaltiempo1" />
+        app:layout_constraintStart_toEndOf="@+id/btn1Tiempo2"
+        app:layout_constraintTop_toBottomOf="@+id/imgCapitaltiempo2" />
 
     <Button
-        android:id="@+id/btnTiempo4"
+        android:id="@+id/btn3Tiempo2"
         android:layout_width="140dp"
         android:layout_height="110dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/btn3Tiempo1"
-        app:layout_constraintEnd_toStartOf="@+id/btnTiempo5"
+        android:text="@string/btn3Tiempo2"
+        app:layout_constraintEnd_toStartOf="@+id/btn4Tiempo2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnTiempo1" />
+        app:layout_constraintTop_toBottomOf="@+id/btn1Tiempo2" />
 
     <Button
-        android:id="@+id/btnTiempo5"
+        android:id="@+id/btn4Tiempo2"
         android:layout_width="140dp"
         android:layout_height="110dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/btn4Tiempo1"
+        android:text="@string/btn4Tiempo2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnTiempo4"
-        app:layout_constraintTop_toBottomOf="@+id/btnTiempo3" />
+        app:layout_constraintStart_toEndOf="@+id/btn3Tiempo2"
+        app:layout_constraintTop_toBottomOf="@+id/btn2Tiempo2" />
 </android.support.constraint.ConstraintLayout>
