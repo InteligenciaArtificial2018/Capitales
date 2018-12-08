@@ -36,7 +36,8 @@
         <activity android:name=".GridActivity" />
         <activity android:name=".SeisNivel2" />
         <activity android:name=".TiempoNivel2" />
-        <activity android:name=".FacilNivel2"></activity>
+        <activity android:name=".FacilNivel2" />
+        <activity android:name=".DificilNivel2"></activity>
     </application>
 
 </manifest>

@@ -174,7 +174,7 @@
     <string name="btn2Tiempo2"></string>
     <string name="btn3Tiempo2"></string>
     <string name="btn4Tiempo2"></string>
-    //Estos son los textview y los button de la pantalla Prueba Dificil del nivel Uno//
+    //Estos son los textview y los button de la pantalla Prueba Facil del nivel Dos//
     <string name="tvTfacil2">La Capital de Irak</string>
     <string name="imgFacil2"></string>
     <string name="Btn1Facil2"></string>
@@ -190,6 +190,21 @@
     <string name="Btn11Facil2"></string>
     <string name="Btn12Facil2"></string>
     <string name="Btn13Facil2"></string>
+
+    //Estos son los textview y los button de la pantalla Prueba Facil del nivel Dos//
+    <string name="tvTdificil2">La Capital de Noruega</string>
+    <string name="imgDificil2"></string>
+    <string name="Btn1Dificil2"></string>
+    <string name="Btn2Dificil2"></string>
+    <string name="Btn3Dificil2"></string>
+    <string name="Btn4Dificil2"></string>
+    <string name="Btn5Dificil2"></string>
+    <string name="Btn6Dificil2"></string>
+    <string name="Btn7Dificil2"></string>
+    <string name="Btn8Dificil2"></string>
+    <string name="Btn9Dificil2"></string>
+    <string name="Btn10Dificil2"></string>
+
 
 
 </resources>

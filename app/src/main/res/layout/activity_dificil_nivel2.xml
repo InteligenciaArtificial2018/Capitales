@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DificilNivel2">
+
+    <TextView
+        android:id="@+id/tvTdificil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/tvTdificil2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgDificil2"
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/imgDificil2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTdificil2"
+        app:srcCompat="@drawable/oslo" />
+
+    <Button
+        android:id="@+id/btn1Dificil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/Btn1Dificil2"
+        app:layout_constraintEnd_toStartOf="@+id/btn2Dificil2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgDificil2" />
+
+    <Button
+        android:id="@+id/btn2Dificil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/Btn2Dificil2"
+        app:layout_constraintEnd_toStartOf="@+id/btn3Dificil2"
+        app:layout_constraintStart_toEndOf="@+id/btn1Dificil2"
+        app:layout_constraintTop_toBottomOf="@+id/imgDificil2" />
+
+    <Button
+        android:id="@+id/btn3Dificil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/Btn3Dificil2"
+        app:layout_constraintEnd_toStartOf="@+id/btn4Dificil2"
+        app:layout_constraintStart_toEndOf="@+id/btn2Dificil2"
+        app:layout_constraintTop_toBottomOf="@+id/imgDificil2" />
+
+    <Button
+        android:id="@+id/btn4Dificil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/Btn4Dificil2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn3Dificil2"
+        app:layout_constraintTop_toBottomOf="@+id/imgDificil2" />
+
+    <Button
+        android:id="@+id/btn5Dificil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/Btn5Dificil2"
+        app:layout_constraintEnd_toStartOf="@+id/btn6Dificil2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1Dificil2" />
+
+    <Button
+        android:id="@+id/btn6Dificil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/Btn6Dificil2"
+        app:layout_constraintEnd_toStartOf="@+id/btn7Dificil2"
+        app:layout_constraintStart_toEndOf="@+id/btn5Dificil2"
+        app:layout_constraintTop_toBottomOf="@+id/btn1Dificil2" />
+
+    <Button
+        android:id="@+id/btn7Dificil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/Btn7Dificil2"
+        app:layout_constraintEnd_toStartOf="@+id/btn8Dificil2"
+        app:layout_constraintStart_toEndOf="@+id/btn6Dificil2"
+        app:layout_constraintTop_toBottomOf="@+id/btn2Dificil2" />
+
+    <Button
+        android:id="@+id/btn8Dificil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/Btn8Dificil2"
+        app:layout_constraintEnd_toStartOf="@+id/btn9Dificil2"
+        app:layout_constraintStart_toEndOf="@+id/btn7Dificil2"
+        app:layout_constraintTop_toBottomOf="@+id/btn3Dificil2" />
+
+    <Button
+        android:id="@+id/btn9Dificil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/Btn9Dificil2"
+        app:layout_constraintEnd_toStartOf="@+id/btn10Dificil2"
+        app:layout_constraintStart_toEndOf="@+id/btn8Dificil2"
+        app:layout_constraintTop_toBottomOf="@+id/btn4Dificil2" />
+
+    <Button
+        android:id="@+id/btn10Dificil2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/Btn10Dificil2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn9Dificil2"
+        app:layout_constraintTop_toBottomOf="@+id/btn4Dificil2" />
+</android.support.constraint.ConstraintLayout>
