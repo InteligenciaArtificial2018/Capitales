@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvNiveldos" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/tvFacildos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -42,16 +42,16 @@
         app:layout_constraintTop_toBottomOf="@+id/tvNiveldos" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/tvSeisdos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvSeisdos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/tvFacildos"
         app:layout_constraintTop_toBottomOf="@+id/tvNiveldos" />
 
     <Button
@@ -59,8 +59,10 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/roma"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacil2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -69,30 +71,32 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/lisboa"
         app:layout_constraintEnd_toStartOf="@+id/btnSeis2"
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toEndOf="@+id/btnMultiple2"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/tvFacildos" />
 
     <Button
         android:id="@+id/btnSeis2"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="40dp"
         android:background="@drawable/madrid"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintStart_toEndOf="@+id/btnFacil2"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeisdos" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvTiempodos"
         app:layout_constraintStart_toStartOf="parent"
@@ -103,7 +107,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvDificildos"
@@ -116,7 +120,7 @@
         android:id="@+id/tvMapados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="56dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvMapados"
@@ -125,43 +129,38 @@
 
     <Button
         android:id="@+id/btnTiempo2"
-        android:layout_width="90dp"
+        android:layout_width="87dp"
         android:layout_height="90dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/habana"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnDificil2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:layout_constraintVertical_bias="0.164" />
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <Button
         android:id="@+id/btnDificil2"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/lhasa"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnMapa2"
         app:layout_constraintStart_toEndOf="@+id/btnTiempo2"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <Button
         android:id="@+id/btnMapa2"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="8dp"
         android:background="@drawable/mapa"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/btnDificil2"
-        app:layout_constraintTop_toBottomOf="@+id/tvMapados"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintTop_toBottomOf="@+id/tvMapados" />
 </android.support.constraint.ConstraintLayout>
