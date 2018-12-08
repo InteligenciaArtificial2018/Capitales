@@ -32,9 +32,9 @@
         <activity android:name=".PruebaDificilNivel1" />
         <activity android:name=".Mapa" />
         <activity android:name=".MapaNivel1" />
-        <activity android:name=".MultipleNivel2"></activity>
-        <activity android:name=".GridActivity"></activity>
-
+        <activity android:name=".MultipleNivel2" />
+        <activity android:name=".GridActivity" />
+        <activity android:name=".SeisNivel2"></activity>
     </application>
 
 </manifest>

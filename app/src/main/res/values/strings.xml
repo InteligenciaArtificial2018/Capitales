@@ -99,19 +99,19 @@
 
     //Estos son los textview de la pantalla Seis del nivel Uno//
     <string name="tvSeisnivel1">Belgica</string>
-    <string name="tvSeis1">Bruselas</string>
-    <string name="tvSeis2">Delhi</string>
-    <string name="tvSeis3">Caracas</string>
-    <string name="tvSeis4">Madrid</string>
-    <string name="tvSeis5">Paris</string>
-    <string name="tvSeis6">Ottawa</string>
+    <string name="tv1Seis1">Bruselas</string>
+    <string name="tv2Seis1">Delhi</string>
+    <string name="tv3Seis1">Caracas</string>
+    <string name="tv4Seis1">Madrid</string>
+    <string name="tv5Seis1">Paris</string>
+    <string name="tv6Seis1">Ottawa</string>
     //Estos son los buttons de la pantalla Seis del nivel Uno//
-    <string name="btnSeisuno"></string>
-    <string name="btnSeisdos"></string>
-    <string name="btnSeis3"></string>
-    <string name="btnSeis4"></string>
-    <string name="btnSeis5"></string>
-    <string name="btnSeis6"></string>
+    <string name="btn1Seis1"></string>
+    <string name="btn2Seis1"></string>
+    <string name="btn3Seis1"></string>
+    <string name="btn4Seis1"></string>
+    <string name="btn5Seis1"></string>
+    <string name="btn6Seis1"></string>
     //Estos son los textview de la pantalla Juego de tiempo del nivel Uno//
     <string name="tvTitulotiempo1">Portugal</string>
     <string name="imgCapitaltiempo1"></string>
@@ -151,7 +151,20 @@
     <string name="btn3Multnivel2"></string>
     <string name="btn4Multnivel2"></string>
 
-
-
+    //Estos son los textview de la pantalla Seis del nivel Uno//
+    <string name="tvSeisnivel2">Holanda</string>
+    <string name="tv1Seis2">Amsterdam</string>
+    <string name="tv2Seis2">Tegucigalpa</string>
+    <string name="tv3Seis2">Santo Domingo</string>
+    <string name="tv4Seis2">Panama</string>
+    <string name="tv5Seis5">San Jose</string>
+    <string name="tv6Seis6">Bogota</string>
+    //Estos son los buttons de la pantalla Seis del nivel Uno//
+    <string name="btn1Seis2"></string>
+    <string name="btn2Seis2"></string>
+    <string name="btn3Seis2"></string>
+    <string name="btn4Seis2"></string>
+    <string name="btn5Seis2"></string>
+    <string name="btn6Seis2"></string>
 
 </resources>
