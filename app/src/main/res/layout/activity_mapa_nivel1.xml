@@ -28,10 +28,10 @@
 
     <ImageView
         android:id="@+id/imgvMapanivel1"
-        android:layout_width="289dp"
-        android:layout_height="177dp"
+        android:layout_width="290dp"
+        android:layout_height="180dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/mapa"
         android:contentDescription="@string/imgvMapanivel1"

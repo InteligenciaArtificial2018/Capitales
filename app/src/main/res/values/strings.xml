@@ -205,6 +205,12 @@
     <string name="Btn9Dificil2"></string>
     <string name="Btn10Dificil2"></string>
 
+    //Estos son los textview y los button de la pantalla En el mapa del nivel Dos//
+    <string name="imgMapanivel2"></string>
+    <string name="Btn1Mapa2"></string>
+    <string name="Btn2Mapa2"></string>
+    <string name="Btn3Mapa2"></string>
+    <string name="Btn4Mapa2"></string>
 
 
 </resources>
