@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         var btnNiveldos = findViewById<Button>(R.id.btnNiveldos)
         var btnNiveltres = findViewById<Button>(R.id.btnNiveltres)
         var btnTodascapiales = findViewById<Button>(R.id.btnTodascapitales)
+        var btnNivelprueba = findViewById<Button>(R.id.btnNivelprueba)
 
 
         btnNiveluno.setOnClickListener {
@@ -37,6 +39,10 @@ class MainActivity : AppCompatActivity() {
         // Codigo para mandar a llamar layaout Nivel 3//
         btnTodascapitales.setOnClickListener {
             val intent = Intent(this, GridActivity::class.java)
+            startActivity(intent)
+        }
+        btnNivelprueba.setOnClickListener {
+            val intent = Intent(this, NivelUnoPrueba::class.java)
             startActivity(intent)
         }
     }
