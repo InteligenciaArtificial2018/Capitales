@@ -11,11 +11,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvCapitales"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +24,7 @@
         android:id="@+id/tvNivel3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="32dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvNivel3"
@@ -34,18 +34,20 @@
     <TextView
         android:id="@+id/tvNivel1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvNivel1"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="73dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCapitales" />
 
     <TextView
         android:id="@+id/tvNiveldos"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvNivel2"
@@ -88,7 +90,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvTodasCapitales"
@@ -112,25 +114,19 @@
         android:layout_height="90dp"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:background="@drawable/ottawa"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnNivelprueba"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.105" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnNivelprueba"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginBottom="8dp"
         android:background="@drawable/atenas"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.097" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </android.support.constraint.ConstraintLayout>
