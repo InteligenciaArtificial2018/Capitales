@@ -28,19 +28,10 @@
             android:name=".Nivel2"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".nivel3"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".PruebaFacilNivel1"
-            android:parentActivityName=".Nivel1" />
-        <activity
             android:name=".SeisNivel1"
             android:parentActivityName=".Nivel1" />
         <activity
             android:name=".JuegoTiempoNivel1"
-            android:parentActivityName=".Nivel1" />
-        <activity
-            android:name=".PruebaDificilNivel1"
             android:parentActivityName=".Nivel1" />
         <activity
             android:name=".MapaNivel1"
@@ -48,7 +39,6 @@
         <activity
             android:name=".MultipleNivel2"
             android:parentActivityName=".Nivel2" />
-        <activity android:name=".GridActivity" />
         <activity
             android:name=".SeisNivel2"
             android:parentActivityName=".Nivel2" />
@@ -56,15 +46,8 @@
             android:name=".TiempoNivel2"
             android:parentActivityName=".Nivel2" />
         <activity
-            android:name=".FacilNivel2"
-            android:parentActivityName=".Nivel2" />
-        <activity
-            android:name=".DificilNivel2"
-            android:parentActivityName=".Nivel2" />
-        <activity
             android:name=".MapaNivel2"
             android:parentActivityName=".Nivel2" />
-        <activity android:name=".NivelUnoPrueba"></activity>
     </application>
 
 </manifest>

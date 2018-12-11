@@ -21,112 +21,93 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvNivel3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="32dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="@string/tvNivel3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCapitales" />
-
-    <TextView
         android:id="@+id/tvNivel1"
-        android:layout_width="wrap_content"
-        android:layout_height="15dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="44dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvNivel1"
+        app:layout_constraintBottom_toTopOf="@+id/btnNiveluno"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCapitales" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCapitales"
+        app:layout_constraintVertical_bias="0.962" />
 
     <TextView
         android:id="@+id/tvNiveldos"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="12dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvNivel2"
-        app:layout_constraintEnd_toStartOf="@+id/tvNivel3"
-        app:layout_constraintHorizontal_bias="0.463"
-        app:layout_constraintStart_toEndOf="@+id/tvNivel1"
-        app:layout_constraintTop_toBottomOf="@+id/tvCapitales" />
+        app:layout_constraintBottom_toTopOf="@+id/btnNiveldos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCapitales"
+        app:layout_constraintVertical_bias="0.963" />
 
     <Button
         android:id="@+id/btnNiveluno"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/kremlin"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNiveldos" />
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnNiveldos"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="28dp"
         android:background="@drawable/puente"
-        app:layout_constraintEnd_toStartOf="@+id/btnNiveltres"
-        app:layout_constraintHorizontal_bias="0.506"
-        app:layout_constraintStart_toEndOf="@+id/btnNiveluno"
-        app:layout_constraintTop_toBottomOf="@+id/tvNiveldos" />
-
-    <Button
-        android:id="@+id/btnNiveltres"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/singapur"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNiveldos" />
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="32dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvTodasCapitales"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnNiveluno" />
+        app:layout_constraintBottom_toTopOf="@+id/btnTodascapitales"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="28dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/tvAprender"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnNiveltres" />
+        app:layout_constraintBottom_toTopOf="@+id/btnNivelprueba"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/btnTodascapitales"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="80dp"
         android:background="@drawable/ottawa"
-        app:layout_constraintEnd_toStartOf="@+id/btnNivelprueba"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnNivelprueba"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginEnd="60dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="80dp"
         android:background="@drawable/atenas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

@@ -28,20 +28,12 @@ class Nivel2 : AppCompatActivity() {
             val intent = Intent(this, MultipleNivel2::class.java)
             startActivity(intent)
         }
-        btnFacil2.setOnClickListener {
-            val intent = Intent(this, FacilNivel2::class.java)
-            startActivity(intent)
-        }
         btnSeis2.setOnClickListener {
             val intent = Intent(this, SeisNivel2::class.java)
             startActivity(intent)
         }
         btnTiempo2.setOnClickListener {
             val intent = Intent(this, TiempoNivel2::class.java)
-            startActivity(intent)
-        }
-        btnDificil2.setOnClickListener {
-            val intent = Intent(this, DificilNivel2::class.java)
             startActivity(intent)
         }
         btnMapa2.setOnClickListener {
