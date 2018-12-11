@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "342988070630",
+    "firebase_url": "https://capitales-cb1bd.firebaseio.com",
+    "project_id": "capitales-cb1bd",
+    "storage_bucket": "capitales-cb1bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342988070630:android:3bcc3b59c5d2ef26",
+        "android_client_info": {
+          "package_name": "com.example.allan.capitales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342988070630-q2uvs3cdvu7e9puphhgcs0srk9qtj6ru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.allan.capitales",
+            "certificate_hash": "725b69a8e49f60f4e3bb8e6824b585b7cd57e0b2"
+          }
+        },
+        {
+          "client_id": "342988070630-sfgjr3btmd2lad9md17h7ovk7r0d5pmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuXI4vtKZRIQgyNttv7i4CD-WldG2v_Rw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342988070630-sfgjr3btmd2lad9md17h7ovk7r0d5pmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

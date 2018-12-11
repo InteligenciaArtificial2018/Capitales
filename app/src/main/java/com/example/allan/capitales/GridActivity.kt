@@ -14,7 +14,7 @@ class GridActivity : AppCompatActivity() {
 
         val capitales = ArrayList<Capitales>()
 
-        capitales.add(Capitales("Grecia", R.drawable.atenas))
+        //capitales.add(Capitales("Grecia", R.drawable.atenas))
 
 
         val laLista = findViewById<GridView>(R.id.gvLista)
@@ -25,7 +25,7 @@ class GridActivity : AppCompatActivity() {
         laLista.adapter = adaptador
 
         laLista.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
-            Toast.makeText(this, capitales.get(position).nombre, Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this, capitales.get(position).nombre, Toast.LENGTH_SHORT).show()
         }
     }
 }

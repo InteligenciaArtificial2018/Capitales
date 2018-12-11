@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.allan.capitales">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,7 +24,7 @@
         <activity
             android:name=".Nivel1"
             android:parentActivityName=".MainActivity"  />
-        <activity android:name=".Multiple" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Multiple" android:parentActivityName=".Nivel1" />
         <activity android:name=".Nivel2" android:parentActivityName=".MainActivity"  />
         <activity android:name=".nivel3" android:parentActivityName=".MainActivity" />
         <activity

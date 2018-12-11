@@ -28,8 +28,8 @@ class AdaptadorCustom(var context: Context, items: ArrayList<Capitales>): BaseAd
         }
 
         val item = items?.get(position) as Capitales
-        holder?.nombre?.text = item.nombre
-        holder?.imagen?.setImageResource(item.imagen)
+        //holder?.nombre?.text = item
+        //holder?.imagen?.setImageResource(item.imagen)
 
         return vista!!
     }
