@@ -98,7 +98,7 @@
     <string name="BtnFacilonce"></string>
 
     //Estos son los textview de la pantalla Seis del nivel Uno//
-    <string name="tvSeisnivel1">Belgica</string>
+    <string name="tvSeisnivel1"></string>
     <string name="tv1Seis1">Bruselas</string>
     <string name="tv2Seis1">Delhi</string>
     <string name="tv3Seis1">Caracas</string>
