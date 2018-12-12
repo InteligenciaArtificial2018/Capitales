@@ -17,10 +17,10 @@ class Nivel2 : AppCompatActivity() {
         val TAG = "com.example.allan.Nivel2.MULTIPLE"
 
         var btnMultiple2 = findViewById<Button>(R.id.btnMultiple2)
-        var btnFacil2 = findViewById<Button>(R.id.btnFacil2)
+
         var btnSeis2 = findViewById<Button>(R.id.btnSeis2)
         var btnTiempo2 = findViewById<Button>(R.id.btnTiempo2)
-        var btnDificil2 = findViewById<Button>(R.id.btnDificil2)
+
         var btnMapa2 = findViewById<Button>(R.id.btnMapa2)
 
 
