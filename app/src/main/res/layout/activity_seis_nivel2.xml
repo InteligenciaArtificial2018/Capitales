@@ -15,8 +15,7 @@
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toStartOf="@+id/imgvS6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgvS3"
-        app:srcCompat="@drawable/brasilia" />
+        app:layout_constraintTop_toBottomOf="@+id/imgvS3" />
 
     <ImageView
         android:id="@+id/imgvS6"
@@ -27,8 +26,7 @@
         android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgvS5"
-        app:layout_constraintTop_toBottomOf="@+id/imgvS4"
-        app:srcCompat="@drawable/brasilia" />
+        app:layout_constraintTop_toBottomOf="@+id/imgvS4" />
 
     <TextView
         android:id="@+id/tvSeisnivel2"
@@ -50,8 +48,7 @@
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toStartOf="@+id/imgvS2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/brasilia" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imgvS2"
@@ -62,8 +59,7 @@
         android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgvS1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/brasilia" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imgvS3"
@@ -74,8 +70,7 @@
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toStartOf="@+id/imgvS4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgvS1"
-        app:srcCompat="@drawable/brasilia" />
+        app:layout_constraintTop_toBottomOf="@+id/imgvS1" />
 
     <ImageView
         android:id="@+id/imgvS4"
@@ -86,7 +81,50 @@
         android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgvS3"
-        app:layout_constraintTop_toBottomOf="@+id/imgvS2"
-        app:srcCompat="@drawable/brasilia" />
+        app:layout_constraintTop_toBottomOf="@+id/imgvS2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="161dp"
+        android:text="Belgica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView12"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corazon" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corazon" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corazon" />
 
 </android.support.constraint.ConstraintLayout>

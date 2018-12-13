@@ -9,9 +9,9 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="400dp"
-        android:layout_height="177dp"
+        android:layout_height="150dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="292dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,4 +62,40 @@
         android:text="@string/BtnMult4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgVida1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="239dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgVida"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corazon" />
+
+    <ImageView
+        android:id="@+id/imgVida"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgVida2"
+        app:layout_constraintStart_toEndOf="@+id/imgVida1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corazon" />
+
+    <ImageView
+        android:id="@+id/imgVida2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgVida"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corazon" />
 </android.support.constraint.ConstraintLayout>
