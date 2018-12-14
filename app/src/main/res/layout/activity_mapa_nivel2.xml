@@ -11,7 +11,7 @@
         android:layout_width="290dp"
         android:layout_height="160dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/imgMapanivel2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,29 +20,29 @@
 
     <Button
         android:id="@+id/btn1Mapa2"
-        android:layout_width="130dp"
+        android:layout_width="140dp"
         android:layout_height="110dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
         android:text="@string/Btn1Mapa2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgMapanivel2" />
 
     <Button
         android:id="@+id/btn2Mapa2"
-        android:layout_width="130dp"
+        android:layout_width="140dp"
         android:layout_height="110dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
         android:text="@string/Btn2Mapa2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgMapanivel2" />
 
     <Button
         android:id="@+id/btn3Mapa2"
-        android:layout_width="130dp"
+        android:layout_width="140dp"
         android:layout_height="110dp"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:text="@string/Btn3Mapa2"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,10 +50,10 @@
 
     <Button
         android:id="@+id/btn4Mapa2"
-        android:layout_width="130dp"
+        android:layout_width="140dp"
         android:layout_height="110dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginEnd="30dp"
         android:text="@string/Btn4Mapa2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn2Mapa2" />

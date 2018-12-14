@@ -25,11 +25,9 @@
         android:id="@+id/btn1Multnivel2"
         android:layout_width="140dp"
         android:layout_height="110dp"
-        android:layout_marginStart="35dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="30dp"
         android:text="@string/btn1Multnivel2"
-        app:layout_constraintEnd_toStartOf="@+id/btn2Multnivel2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgvMultnivel2" />
 
@@ -37,11 +35,11 @@
         android:id="@+id/btn3Multnivel2"
         android:layout_width="140dp"
         android:layout_height="110dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
         android:text="@string/btn3Multnivel2"
-        app:layout_constraintEnd_toStartOf="@+id/btn4Multnivel2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn1Multnivel2" />
 
@@ -49,24 +47,22 @@
         android:id="@+id/btn4Multnivel2"
         android:layout_width="140dp"
         android:layout_height="110dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="32dp"
         android:text="@string/btn4Multnivel2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn3Multnivel2"
         app:layout_constraintTop_toBottomOf="@+id/btn2Multnivel2" />
 
     <Button
         android:id="@+id/btn2Multnivel2"
         android:layout_width="140dp"
         android:layout_height="110dp"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="35dp"
+        android:layout_marginEnd="30dp"
         android:text="@string/btn2Multnivel2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn1Multnivel2"
         app:layout_constraintTop_toBottomOf="@+id/imgvMultnivel2" />
 
     <ImageView

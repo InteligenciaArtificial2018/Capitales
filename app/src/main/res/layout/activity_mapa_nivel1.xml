@@ -8,9 +8,9 @@
 
     <Button
         android:id="@+id/btnMapa3"
-        android:layout_width="130dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="50dp"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:text="@string/BtnMapa3"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,10 +18,10 @@
 
     <Button
         android:id="@+id/btnMapa4"
-        android:layout_width="130dp"
-        android:layout_height="100dp"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginEnd="30dp"
         android:text="@string/BtnMapa4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnMapa2" />
@@ -31,7 +31,7 @@
         android:layout_width="290dp"
         android:layout_height="150dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/imgvMapanivel1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,20 +41,20 @@
 
     <Button
         android:id="@+id/btnMapa1"
-        android:layout_width="130dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="25dp"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
         android:text="@string/BtnMapa1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgvMapanivel1" />
 
     <Button
         android:id="@+id/btnMapa2"
-        android:layout_width="130dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="50dp"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
         android:text="@string/BtnMapa2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgvMapanivel1" />
@@ -75,9 +75,11 @@
         android:id="@+id/imageView4"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="7dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/corazon" />
 
@@ -85,9 +87,11 @@
         android:id="@+id/imageView5"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/corazon" />
 

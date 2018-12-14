@@ -25,45 +25,47 @@
         <activity
             android:name=".Nivel1"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Multiple"
             android:parentActivityName=".gameOver"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Nivel2"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SeisNivel1"
             android:parentActivityName=".Nivel1"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".JuegoTiempoNivel1"
             android:parentActivityName=".Nivel1"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MapaNivel1"
             android:parentActivityName=".Nivel1"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MultipleNivel2"
             android:parentActivityName=".Nivel2"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SeisNivel2"
             android:parentActivityName=".Nivel2"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".TiempoNivel2"
             android:parentActivityName=".Nivel2"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MapaNivel2"
             android:parentActivityName=".Nivel2"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".gameOver"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gameOver"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TodasCapitales"></activity>
     </application>
 
 </manifest>

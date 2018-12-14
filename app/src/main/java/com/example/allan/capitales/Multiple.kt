@@ -10,18 +10,24 @@ import com.google.firebase.storage.FirebaseStorage
 import com.squareup.picasso.Picasso
 import java.util.*
 
+/**
+ * Esta parte del codigo incluye la implementacion de las vidas y las imagenes que se traen de la base de datos.
+ */
 class Multiple : AppCompatActivity() {
     var vidas = 3
     val bdd = FirebaseStorage.getInstance().getReference()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_multiple)
-
+        /**
+         * Esta es la funcion para mostrar las imagenes de manera aleatoria.
+         */
         val random = Random()
         var numerodeimagen = random.nextInt(9)
         var numeropregunta = random.nextInt(9)
         var numeropregunta2 = random.nextInt(9)
         var numeropregunta3 = random.nextInt(9)
+        botonatras()
         val imagen = findViewById<ImageView>(R.id.imageView2)
         val c1 = "https://firebasestorage.googleapis.com/v0/b/capitales-cb1bd.appspot.com/o/Nivel1%2Fatenas.jpg?alt=media&token=01779703-d4b9-4c77-9070-32657c91ec27"
         val c2 = "https://firebasestorage.googleapis.com/v0/b/capitales-cb1bd.appspot.com/o/Nivel1%2Fberna.jpg?alt=media&token=88a49cea-6498-46ca-943d-460a3cb4622f"
@@ -59,10 +65,12 @@ class Multiple : AppCompatActivity() {
         respuestacorrecta.text = respuestas[numerodeimagen]
 
         Picasso.get().load(imagenes[numerodeimagen]).into(imagen)
-
+        /**
+         * Aqui se muestra como van a funcionar las vidas en cada pantalla.
+         */
         respuestacorrecta.setOnClickListener {
             val intent = Intent(this, Multiple::class.java)
-            startActivity(intent)
+            startActivity((intent))
         }
         respuesta1.setOnClickListener {
             corazon.setImageResource(0)
@@ -89,6 +97,14 @@ class Multiple : AppCompatActivity() {
         {
             val intent = Intent(this, gameOver::class.java)
             startActivity(intent)
+        }
+    }
+    fun botonatras ()
+    {
+        val atras = supportActionBar
+        if (atras != null)
+        {
+            atras.setDisplayHomeAsUpEnabled(true)
         }
     }
 }
