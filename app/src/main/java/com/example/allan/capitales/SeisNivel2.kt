@@ -150,7 +150,7 @@ class SeisNivel2 : AppCompatActivity() {
         }
         else
         {
-
+            vida2.setImageResource(0)
         }
     }
 }

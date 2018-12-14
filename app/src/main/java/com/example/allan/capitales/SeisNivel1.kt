@@ -94,6 +94,10 @@ class SeisNivel1 : AppCompatActivity() {
                     val intent = Intent(this, SeisNivel1::class.java)
                     startActivity(intent)
                 }
+                else
+                {
+                    vida3.setImageResource(0)
+                }
             }
         }
         else if (respuesta.text == respuestas[3])
@@ -111,6 +115,10 @@ class SeisNivel1 : AppCompatActivity() {
                     val intent = Intent(this, SeisNivel1::class.java)
                     startActivity(intent)
                 }
+                else
+                {
+                    corazon.setImageResource(0)
+                }
             }
         }
         else if (respuesta.text == respuestas[4])
@@ -127,6 +135,10 @@ class SeisNivel1 : AppCompatActivity() {
                     img5.setImageResource(0)
                     val intent = Intent(this, SeisNivel1::class.java)
                     startActivity(intent)
+                }
+                else
+                {
+                    vida2.setImageResource(0)
                 }
             }
         }
@@ -149,7 +161,7 @@ class SeisNivel1 : AppCompatActivity() {
         }
         else
         {
-
+            vida2.setImageResource(0)
         }
     }
 }
